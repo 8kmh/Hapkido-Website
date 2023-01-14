@@ -28,4 +28,5 @@ img {
 }
 .active {
   color: #777;
+  text-decoration: underline;
 }
