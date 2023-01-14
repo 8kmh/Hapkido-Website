@@ -9,14 +9,13 @@ img {
 
 .nav {
   background-color: #333;
-  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.nav a {
-  color: inherit;
+.link {
+  color: white;
   text-decoration: none;
 }
 
@@ -26,4 +25,7 @@ img {
 
 .nav li:hover {
   background-color: #555;
+}
+.active {
+  color: #777;
 }
