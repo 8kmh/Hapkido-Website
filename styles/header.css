@@ -1,0 +1,9 @@
+.header {
+  /* background-color: grey; */
+  background-image: url("../src/assets/hapkifini1.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 110vh;
+}
