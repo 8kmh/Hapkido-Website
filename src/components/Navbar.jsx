@@ -9,11 +9,6 @@ export default function Navbar() {
       </Link>
       <ul>
         <li>
-          <NavLink to="/" className="link">
-            Accueil
-          </NavLink>
-        </li>
-        <li>
           <NavLink to="/contact" className="link">
             Contact
           </NavLink>
