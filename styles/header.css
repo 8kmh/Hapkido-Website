@@ -4,17 +4,15 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100vh;
+  height: 130vh;
 }
 
 h1 {
   color: #2a2926;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 999px) {
   .header {
-    background-image: url("../src/assets/hapkifini1-resize.png");
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-image: none;
   }
 }
