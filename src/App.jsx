@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Contact from "./pages/Contact";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 import Adherent from "./pages/Adherent";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
 //import "../styles/header.css";
 
 function App() {
