@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Adherent from "./pages/Adherent";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import NotFound from "./pages/NotFound";
 //import "../styles/header.css";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="adherent" element={<Adherent />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
